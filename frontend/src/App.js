@@ -47,7 +47,7 @@ function App() {
   // ---- State ----
   const [movies, setMovies] = useState([]);
   const [randomMovie, setRandomMovie] = useState(null);
-  const [showMovies, setShowMovies] = useState(true);
+  const [showMovies, setShowMovies] = useState(false);
   const [page, setPage] = useState(0);
 
   // ---- Constants ----
