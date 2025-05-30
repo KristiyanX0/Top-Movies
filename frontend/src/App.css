@@ -1,0 +1,131 @@
+/* Container and overall layout */
+.container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #3182ce, #805ad5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+/* Header title */
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #2d3748;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* Button group */
+.buttons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-weight: 600;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.random-btn {
+  background-color: #5a67d8;
+  color: white;
+}
+
+.toggle-btn {
+  background-color: #48bb78;
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Random movie card */
+.random-movie {
+  position: relative;
+  background-color: #ebf4ff;
+  border-left: 4px solid #5a67d8;
+  padding: 16px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 16px;
+}
+
+.random-movie h2 {
+  font-size: 1.75rem;
+  color: #2c5282;
+  margin: 0;
+}
+
+.random-movie p {
+  margin: 8px 0;
+  color: #4a5568;
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: transparent;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+/* Movie list styling */
+.movie-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  margin: 0;
+}
+
+.movie-item {
+  background-color: #f7fafc;
+  padding: 16px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+  margin-bottom: 16px;
+}
+
+.movie-item:hover {
+  background-color: #edf2f7;
+}
+
+.movie-item h3,
+.movie-item p {
+  margin: 4px 0;
+  color: #2d3748;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.page-info {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.pagination .btn:disabled {
+  background-color: #a0aec0;
+  cursor: default;
+  transform: none;
+  opacity: 0.6;
+}
