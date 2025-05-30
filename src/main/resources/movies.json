@@ -1,0 +1,122 @@
+[
+  {
+    "title": "The Godfather",
+    "year": "1972",
+    "rating": "97%",
+    "description": "A gripping tale of a powerful Italian-American crime family and their struggles with loyalty and betrayal."
+  },
+  {
+    "title": "Casablanca",
+    "year": "1942",
+    "rating": "99%",
+    "description": "A timeless romance set against the backdrop of World War II intrigue and sacrifice."
+  },
+  {
+    "title": "L.A. Confidential",
+    "year": "1997",
+    "rating": "99%",
+    "description": "A noir crime drama exploring corruption and scandal in 1950s Los Angeles."
+  },
+  {
+    "title": "Seven Samurai",
+    "year": "1954",
+    "rating": "100%",
+    "description": "A classic Japanese epic about a group of samurai defending a village from bandits."
+  },
+  {
+    "title": "Parasite",
+    "year": "2019",
+    "rating": "99%",
+    "description": "A darkly comedic thriller about class disparity and unexpected twists."
+  },
+  {
+    "title": "Schindler's List",
+    "year": "1993",
+    "rating": "98%",
+    "description": "A harrowing depiction of the Holocaust and one man's efforts to save lives."
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "year": "2022",
+    "rating": "96%",
+    "description": "A high-octane sequel showcasing aerial stunts and personal redemption."
+  },
+  {
+    "title": "Chinatown",
+    "year": "1974",
+    "rating": "98%",
+    "description": "A neo-noir masterpiece unraveling a web of deceit and corruption."
+  },
+  {
+    "title": "On the Waterfront",
+    "year": "1954",
+    "rating": "99%",
+    "description": "A powerful story of redemption and standing up against corruption."
+  },
+  {
+    "title": "Toy Story 2",
+    "year": "1999",
+    "rating": "100%",
+    "description": "A heartwarming animated adventure about friendship and loyalty."
+  },
+  {
+    "title": "Rear Window",
+    "year": "1954",
+    "rating": "98%",
+    "description": "A suspenseful Hitchcock classic about voyeurism and mystery."
+  },
+  {
+    "title": "The Battle of Algiers",
+    "year": "1966",
+    "rating": "99%",
+    "description": "A gripping portrayal of the Algerian struggle for independence."
+  },
+  {
+    "title": "Modern Times",
+    "year": "1936",
+    "rating": "98%",
+    "description": "Charlie Chaplin's satirical take on industrialization and humanity."
+  },
+  {
+    "title": "Finding Nemo",
+    "year": "2003",
+    "rating": "99%",
+    "description": "An animated underwater journey of love and adventure."
+  },
+  {
+    "title": "How to Train Your Dragon",
+    "year": "2010",
+    "rating": "99%",
+    "description": "A touching tale of friendship between a boy and a dragon."
+  },
+  {
+    "title": "Toy Story 3",
+    "year": "2010",
+    "rating": "98%",
+    "description": "A nostalgic and emotional continuation of the beloved series."
+  },
+  {
+    "title": "Up",
+    "year": "2009",
+    "rating": "98%",
+    "description": "A heartfelt adventure about dreams, loss, and unlikely friendships."
+  },
+  {
+    "title": "All About Eve",
+    "year": "1950",
+    "rating": "99%",
+    "description": "A sharp and witty drama about ambition and betrayal in showbiz."
+  },
+  {
+    "title": "Godzilla Minus One",
+    "year": "2023",
+    "rating": "99%",
+    "description": "A thrilling reboot of the iconic monster franchise."
+  },
+  {
+    "title": "Toy Story",
+    "year": "1995",
+    "rating": "100%",
+    "description": "The groundbreaking animated film that started it all."
+  }
+]
