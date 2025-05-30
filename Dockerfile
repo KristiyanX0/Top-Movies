@@ -1,7 +1,7 @@
 ########################################
 # 1) Build the JAR with Maven + JDK21 #
 ########################################
-FROM maven:4.0.0-eclipse-temurin-21 AS build
+FROM maven:4.0.0-eclipse-temurin-17 AS build
 
 WORKDIR /workspace
 COPY pom.xml mvnw ./
@@ -14,7 +14,7 @@ RUN ./mvnw clean package -DskipTests
 ########################################
 # 2) Create a slim runtime image      #
 ########################################
-FROM eclipse-temurin:21-jre
+FROM eclipse-temurin:17-jre
 
 WORKDIR /app
 
