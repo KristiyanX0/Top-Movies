@@ -41,4 +41,23 @@ public class MovieService {
         int randomIndex = (int) (Math.random() * movies.size());
         return movies.get(randomIndex);
     }
+
+    public List<Movie> getMoviesBetween(int start, int end) {
+        if (movies == null || movies.isEmpty()) {
+            throw new IllegalStateException("Movies not loaded yet");
+        }
+        return movies.stream()
+                .filter(movie -> Integer.parseInt(movie.getYear()) >= start && Integer.parseInt(movie.getYear()) <= end)
+                .toList();
+    }
+
+    public List<Movie> getRating(int minimum) {
+        if (movies == null || movies.isEmpty()) {
+            throw new IllegalStateException("Movies not loaded yet");
+        }
+        return movies.stream()
+                .filter(movie -> Integer.parseInt(
+                        movie.getRating().substring(0, movie.getRating().length() - 1)) >= minimum)
+                .toList();
+    }
 }
